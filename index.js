@@ -5,6 +5,7 @@ const PORT = 3000;
 
 app.get("/", (_req, res) => {
   res.status(200);
+  console.log("The API was HIT!!!");
   res.send("The proxy worked!!!");
 });
 
