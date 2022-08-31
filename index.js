@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const PORT = 3000;
 
-app.get("/", (_req, res) => {
+app.get("/home", (_req, res) => {
   res.status(200);
   console.log("The API was HIT!!!");
   res.send("The proxy worked!!!");
